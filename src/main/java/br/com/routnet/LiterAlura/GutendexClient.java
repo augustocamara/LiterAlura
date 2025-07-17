@@ -1,5 +1,7 @@
-package br.com.routnet.LiterAlura.client;
+package br.com.routnet.LiterAlura;
 
+import br.com.routnet.LiterAlura.dto.DadosAPI;
+import br.com.routnet.LiterAlura.dto.DadosLivro;
 import br.com.routnet.LiterAlura.model.Livro;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;

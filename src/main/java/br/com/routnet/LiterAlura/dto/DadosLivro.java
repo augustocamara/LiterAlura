@@ -1,4 +1,4 @@
-package br.com.routnet.LiterAlura.client;
+package br.com.routnet.LiterAlura.dto;
 
 import br.com.routnet.LiterAlura.model.Livro;
 import com.fasterxml.jackson.annotation.JsonAlias;

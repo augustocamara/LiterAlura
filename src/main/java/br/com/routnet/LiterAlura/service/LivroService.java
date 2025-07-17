@@ -1,6 +1,6 @@
 package br.com.routnet.LiterAlura.service;
 
-import br.com.routnet.LiterAlura.client.GutendexClient;
+import br.com.routnet.LiterAlura.GutendexClient;
 import br.com.routnet.LiterAlura.model.Livro;
 import br.com.routnet.LiterAlura.repository.AutorRepository;
 import br.com.routnet.LiterAlura.repository.LivroRepository;

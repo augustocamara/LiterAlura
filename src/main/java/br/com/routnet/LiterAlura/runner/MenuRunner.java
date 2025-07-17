@@ -37,7 +37,14 @@ public class MenuRunner implements CommandLineRunner {
                 }
                 case 2 -> service.listarTodosLivros();
                 case 3 -> {
-                    System.out.print("Idioma: ");
+                    System.out.print("""
+                            Insira o idioma para realizar a busca:
+                            Portugês - pt
+                            inglês - en
+                            español - es
+                            italiano - it
+                            frances - fr
+                            """);
                     String idioma = sc.nextLine();
                     service.listarLivrosPorIdioma(idioma);
                 }
